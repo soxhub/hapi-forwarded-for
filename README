@@ -1,0 +1,32 @@
+# hapi-forwarded-for
+
+hapi.js v17+ plugin: sets `request.info.remoteAddress` from `x-forwarded-for` header when proxies are in front of hapo
+
+### Installation
+```
+npm install --save hapi-forwarded-for
+```
+or
+```
+yarn add hapi-forwarded-for
+```
+
+
+### Usage
+
+``` javascript
+let server = new Hapi.Server();
+await server.register({ plugin: require('hapi-forwarded-for') });
+
+server.route({
+    method: 'GET',
+    path: '/',
+    handler: (request, h) => {
+        return request.info.remoteAddress;
+    }
+});
+```
+
+## License
+
+MIT
