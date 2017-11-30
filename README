@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/soxhub/hapi-forwarded-for.svg?branch=master)](https://travis-ci.org/soxhub/hapi-forwarded-for)
+
 # hapi-forwarded-for
 
 hapi.js v17+ plugin: sets `request.info.remoteAddress` from `x-forwarded-for` header when proxies are in front of hapo
