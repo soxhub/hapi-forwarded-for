@@ -1,0 +1,39 @@
+{
+  "name": "hapi-forwarded-for",
+  "version": "1.0.0",
+  "description": "hapi 17 plugin: sets request.info.remoteAddress from x-forwarded-for header",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soxhub/hapi-forwarded-for.git"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "keywords": [
+    "x-forwarded-for",
+    "hapi",
+    "remoteAddress",
+    "proxy"
+  ],
+  "author": "Rajiv Makhijani <rajiv@auditboard.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soxhub/hapi-forwarded-for/issues"
+  },
+  "homepage": "https://github.com/soxhub/hapi-forwarded-for#readme",
+  "dependencies": {
+    "forwarded": "^0.1.2"
+  },
+  "peerDependencies": {
+    "hapi": "^17.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "hapi": "^17.1.1",
+    "mocha": "^4.0.1"
+  }
+}
