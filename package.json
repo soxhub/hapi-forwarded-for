@@ -1,6 +1,6 @@
 {
   "name": "hapi-forwarded-for",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "hapi 17 plugin: sets request.info.remoteAddress from x-forwarded-for header",
   "main": "lib/index.js",
   "scripts": {
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/soxhub/hapi-forwarded-for.git"
-  },
-  "engines": {
-    "node": "^8.9.1"
   },
   "keywords": [
     "x-forwarded-for",
