@@ -3,7 +3,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const Hapi = require('hapi');
+const Hapi = require('@hapi/hapi');
 const HapiForwardedFor = require('..');
 
 describe('x-forwarded-for -> remoteAddress', function () {

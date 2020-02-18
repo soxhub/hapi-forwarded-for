@@ -1,7 +1,7 @@
 {
   "name": "hapi-forwarded-for",
-  "version": "1.0.2",
-  "description": "hapi 17 plugin: sets request.info.remoteAddress from x-forwarded-for header",
+  "version": "2.0.0",
+  "description": "hapi 19 plugin: sets request.info.remoteAddress from x-forwarded-for header",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha test/index.js"
@@ -26,11 +26,11 @@
     "forwarded": "^0.1.2"
   },
   "peerDependencies": {
-    "hapi": "^17.1.1"
+    "@hapi/hapi": "^19.0.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "hapi": "^17.1.1",
+    "@hapi/hapi": "^19.0.0",
     "mocha": "^4.0.1"
   }
 }
