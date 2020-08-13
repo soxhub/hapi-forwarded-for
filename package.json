@@ -1,6 +1,6 @@
 {
   "name": "hapi-forwarded-for",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "hapi 19 plugin: sets request.info.remoteAddress from x-forwarded-for header",
   "main": "lib/index.js",
   "scripts": {
@@ -31,6 +31,6 @@
   "devDependencies": {
     "@hapi/hapi": "^19.0.0",
     "chai": "^4.2.0",
-    "mocha": "^7.0.1"
+    "mocha": "^8.1.0"
   }
 }
